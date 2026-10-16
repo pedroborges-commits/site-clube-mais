@@ -31,8 +31,8 @@ const INFO_SECTIONS: InfoSection[] = [
 // rotas/links de redirecionamento
 
 const ROUTES = {
-  cliente: '/cliente', // Tem de ser igual ao path="/cliente" do App.tsx (SEM .tsx)
-  parceiro: '/parceiro', // Tem de ser igual ao path="/parceiro" do App.tsx (SEM .tsx)
+  cliente: '/cliente',
+  parceiro: '/parceiro',
   planoMaisVendas: '#', // URL da página de vendas existente
   cupomClube: 'a definir',
 };
@@ -86,7 +86,7 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Divisor sutil */}
+          {/* divisor */}
           <hr className="border-[#e4efe7]" />
 
           {/* Seção: Conheça o Plano Mais */}
@@ -100,7 +100,7 @@ export default function Home() {
               desconto na adesão.
             </p>
 
-            {/* Destaque do Cupom */}
+            {/* destaque do Cupom */}
             <div className="text-sm sm:text-base text-[#4a6353]">
               <span className="font-medium">Cupom do Clube:</span>{' '}
               <span className="badge bg-[#e4efe7] text-[#1e3526] border-none font-semibold px-3 py-3">
