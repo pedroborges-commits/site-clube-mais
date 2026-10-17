@@ -8,6 +8,39 @@ function Clientes() {
       <Link to="/" className="btn btn-sm bg-[#e4efe7] border-none text-[#1e3526]">
         ← Voltar para a Home
       </Link>
+
+      <section> {/* baixar o aplicativo do clube */}
+
+        <h2>Baixar o aplicativo do Clube:</h2>
+            <div>
+                <Link to="https://play.google.com/store/apps/details?id=br.com.plano.mais&hl=pt_BR" className="btn btn-sm bg-[#e4efe7] border-none text-[#1e3526]">
+                    GooglePlay
+                </Link>
+            </div>
+            <div>
+                <Link to="https://apps.apple.com/us/app/clube-mais-vantagens/id1670229780" className="btn btn-sm bg-[#e4efe7] border-none text-[#1e3526]">
+                    AppStore
+                </Link>
+            </div>
+      </section>
+      <section>  {/* consultar parceiros regionais */}
+
+        <h2>Consultar parceiros regionais</h2>
+            <div>
+                <Link to="https://planomais.com.br/wp-content/uploads/2022/07/GUIA-DE-CONVENIO-2022-Atualizado.pdf" className="btn btn-sm bg-[#e4efe7] border-none text-[#1e3526]">
+                    Confira
+                </Link>
+            </div>
+      </section>
+      <section>  {/* Falar com canal de atendimento */}
+
+        <h2>Falar com canal de atendimento</h2>
+            <div>
+                <Link to="#canalAtendimento" className="btn btn-sm bg-[#e4efe7] border-none text-[#1e3526]">
+                    Canal oficial de atendimento
+                </Link>
+            </div>
+      </section>
     </div>
   );
 }
