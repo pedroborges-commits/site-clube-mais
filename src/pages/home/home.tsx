@@ -41,15 +41,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-base-200 py-10 px-4 flex justify-center items-start">
       {/* Card principal seguindo a estética da referência */}
-      <div className="w-full max-w-2xl bg-base-100 rounded-2xl border border-[#d4e2d7] shadow-sm overflow-hidden">
+      <div className="w-full max-w-2xl bg-base-100">
         
         {/* HOME */}
         
         {/* Corpo da Página */}
-        <div className="p-6 sm:p-8 space-y-8 text-[#264130]">
+        <div className="p-6 sm:p-8 space-y-8">
           
           {/* Título Principal */}
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#1e3526]">
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
             Clube Mais de Vantagens
           </h1>
 
@@ -57,10 +57,10 @@ export default function Home() {
           <div className="space-y-6">
             {INFO_SECTIONS.map((section) => (
               <section key={section.title} className="space-y-1">
-                <h2 className="text-lg font-semibold text-[#264130]">
+                <h2 className="text-lg font-semibold">
                   {section.title}
                 </h2>
-                <p className="text-sm sm:text-base text-[#4a6353] leading-relaxed">
+                <p className="text-sm sm:text-base leading-relaxed">
                   {section.description}
                 </p>
               </section>
@@ -71,39 +71,37 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
               to={ROUTES.cliente}
-              className="btn h-auto py-4 px-5 bg-[#e4efe7] hover:bg-[#d3e5d8] border-none text-[#1e3526] font-semibold justify-between rounded-xl transition-all duration-200 shadow-none"
+              className="btn h-auto py-4 px-5 bg-gray-200 hover:bg-gray-300 border-none font-semibold justify-between transition-all duration-200 shadow-none"
             >
               <span className="text-base">Sou cliente</span>
-              <span aria-hidden="true" className="text-lg">↓</span>
             </Link>
 
             <Link
               to={ROUTES.parceiro}
-              className="btn h-auto py-4 px-5 bg-[#e4efe7] hover:bg-[#d3e5d8] border-none text-[#1e3526] font-semibold justify-between rounded-xl transition-all duration-200 shadow-none"
+              className="btn h-auto py-4 px-5 bg-gray-200 text-[#000000] hover:bg-gray-300 border-none font-semibold justify-between transition-all duration-200 shadow-none"
             >
               <span className="text-base">Sou / quero ser parceiro</span>
-              <span aria-hidden="true" className="text-lg">↓</span>
             </Link>
           </div>
 
           {/* divisor */}
-          <hr className="border-[#e4efe7]" />
+          <hr className="border-gray-200" />
 
-          {/* Seção: Conheça o Plano Mais */}
+          {/* conheça o Plano Mais */}
           <section className="space-y-4">
-            <h2 className="text-xl sm:text-2xl font-bold text-[#1e3526]">
+            <h2 className="text-xl sm:text-2xl font-bold">
               Conheça o Plano Mais
             </h2>
 
-            <p className="text-sm sm:text-base text-[#4a6353] leading-relaxed">
+            <p className="text-sm sm:text-base leading-relaxed">
               Contrate pelo canal do Clube e use o cupom exclusivo para ter
               desconto na adesão.
             </p>
 
             {/* destaque do Cupom */}
-            <div className="text-sm sm:text-base text-[#4a6353]">
+            <div className="text-sm sm:text-base text-[#000000]">
               <span className="font-medium">Cupom do Clube:</span>{' '}
-              <span className="badge bg-[#e4efe7] text-[#1e3526] border-none font-semibold px-3 py-3">
+              <span className="badge text-[#000000] border-none font-semibold px-3 py-3">
                 {ROUTES.cupomClube}
               </span>
             </div>
@@ -116,14 +114,8 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group inline-flex flex-col items-start focus:outline-none"
               >
-                <span className="inline-flex items-center gap-1.5 text-lg font-bold text-[#1e3526] group-hover:text-[#356346] group-hover:underline transition-colors">
+                <span className="btn h-auto py-4 px-5 bg-gray-200 hover:bg-gray-300 border-none font-semibold justify-between transition-all duration-200 shadow-none">
                   Conhecer o plano e contratar
-                  <span
-                    aria-hidden="true"
-                    className="inline-block transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                  >
-                    ↗
-                  </span>
                 </span>
               </a>
             </div>
