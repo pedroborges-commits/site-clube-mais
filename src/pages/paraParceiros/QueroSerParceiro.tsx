@@ -115,7 +115,7 @@ export default function QueroSerParceiro() {
             <label className={labelClass}>
               CNPJ
               <input
-              maxLength={18}
+                maxLength={18}
                 name="cnpj"
                 type="text"
                 inputMode="numeric"
