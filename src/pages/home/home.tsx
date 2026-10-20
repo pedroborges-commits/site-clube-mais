@@ -40,20 +40,19 @@ const ROUTES = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-base-200 py-10 px-4 flex justify-center items-start">
-      {/* Card principal seguindo a estética da referência */}
       <div className="w-full max-w-2xl bg-base-100">
         
         {/* HOME */}
         
-        {/* Corpo da Página */}
+        {/* corpo da página */}
         <div className="p-6 sm:p-8 space-y-8">
           
-          {/* Título Principal */}
+          {/* título principal */}
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
             Clube Mais de Vantagens
           </h1>
 
-          {/* Lista de Seções Informativas */}
+          {/* lista de seções informativas */}
           <div className="space-y-6">
             {INFO_SECTIONS.map((section) => (
               <section key={section.title} className="space-y-1">
@@ -67,7 +66,7 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Botões de Redirecionamento: Sou Cliente & Sou / Quero ser Parceiro */}
+          {/* botões de redirecionamento: Sou Cliente & Sou / Quero ser Parceiro */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
               to={ROUTES.cliente}
