@@ -10,7 +10,7 @@ const APP_STORES = [
   {
     id: 'appStore',
     name: 'App Store',
-    url: 'https://apps.apple.com/us/app/clube-mais-vantagens/id1670229780',
+    url: 'https://apps.apple.com/us/app/clube-mais-de-vantagens/id1671223473',
     iconSrc: '/assets/logos/App_store_logo.png',
   },
 ];
@@ -71,7 +71,9 @@ function Clientes() {
           </h2>
           <div>
             <a
-              href="#canalAtendimento"
+              href="https://api.whatsapp.com/send?phone=5522997057655&text=Ol%C3%A1%21+Vim+do+site+e+tenho+d%C3%BAvidas"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn bg-gray-200 text-black hover:bg-gray-300 border-none"
             >
               Canal oficial de atendimento
