@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/home/home";
 import Clientes from "./pages/paraClientes/paraclientes";
 import Parceiros from "./pages/paraParceiros/paraparceiros";
-
 import AlteracaoDados from "./pages/paraParceiros/AlteraçãoDados";
 import QueroSerParceiro from "./pages/paraParceiros/QueroSerParceiro";
 import IndicarParceiro from "./pages/paraParceiros/IndicarParceiro";

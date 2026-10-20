@@ -71,7 +71,9 @@ function Clientes() {
           </h2>
           <div>
             <a
-              href="#canalAtendimento"
+              href="https://api.whatsapp.com/send?phone=5522997057655&text=Ol%C3%A1%21+Vim+do+site+e+tenho+d%C3%BAvidas"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn bg-gray-200 text-black hover:bg-gray-300 border-none"
             >
               Canal oficial de atendimento
