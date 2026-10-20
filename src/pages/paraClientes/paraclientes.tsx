@@ -17,14 +17,14 @@ const APP_STORES = [
 
 function Clientes() {
   return (
-    <div className="min-h-screen bg-base-200 py-10 px-4 flex justify-center items-start text-black">
-      <div className="w-full max-w-2xl bg-base-100 shadow-sm p-6 sm:p-8 space-y-8">
+    <div className="min-h-screen bg-gray-50 py-10 px-4 flex justify-center items-start text-black">
+      <div className="w-full max-w-2xl bg-white rounded-xl shadow-sm p-6 sm:p-8 space-y-8">
         
         {/* Topo / Voltar */}
         <div className="space-y-4">
           <Link
             to="/"
-            className="btn btn-sm bg-gray-200 text-black hover:bg-gray-300 border-none"
+            className="inline-flex items-center rounded-md bg-gray-200 px-4 py-2 text-sm font-medium text-gray-800 transition hover:bg-gray-300"
           >
             ← Voltar para a página inicial
           </Link>
@@ -65,19 +65,17 @@ function Clientes() {
         </section>
 
         {/* Falar com canal de atendimento */}
-        <section className="space-y-3">
+        <section className="space-y-9">
           <h2 className="text-lg font-semibold">
             Falar com canal de atendimento
           </h2>
           <div>
-            <a
-              href="https://api.whatsapp.com/send?phone=5522997057655&text=Ol%C3%A1%21+Vim+do+site+e+tenho+d%C3%BAvidas"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn bg-gray-200 text-black hover:bg-gray-300 border-none"
-            >
-              Canal oficial de atendimento
+            <a href="https://api.whatsapp.com/send?phone=5522997057655&text=Ol%C3%A1%21+Vim+do+site+e+tenho+d%C3%BAvidas"
+            target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center rounded-lg cursor-pointer h-auto py-4 px-5 bg-gray-200 hover:bg-gray-300 border-none font-semibold justify-between transition-all duration-200 shadow-none">
+              <span className="text-base">Canal oficial de atendimento</span>
             </a>
+
           </div>
         </section>
 

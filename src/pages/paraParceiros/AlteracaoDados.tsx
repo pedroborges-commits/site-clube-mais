@@ -91,7 +91,7 @@ export default function AlteracaoDados() {
             <label className={labelClass}>
               CNPJ
               <input
-                maxLength={14}
+                maxLength={18}
                 name="cnpj"
                 type="text"
                 inputMode="numeric"

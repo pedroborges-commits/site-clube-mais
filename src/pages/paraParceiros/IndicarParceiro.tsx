@@ -187,7 +187,7 @@ export default function IndicarParceiro() {
               Site ou Instagram (opcional)
               <input
                 name="site_instagram"
-                type="url"
+                type="text"
                 placeholder="https://..."
                 className={inputClass}
               />
