@@ -50,13 +50,13 @@ function Clientes() {
                 href={store.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center bg-gray-100 hover:bg-gray-200 px-4 py-2.5 rounded-xl transition-colors"
+                className="flex items-center justify-center px-1 py-2.5 rounded-xl transition-colors"
               >
                 {store.iconSrc && (
                   <img
                     src={store.iconSrc}
                     alt={store.name}
-                    className="w-36 h-10 object-contain shrink-0"
+                    className="w-36 h-12 object-contain shrink-0"
                   />
                 )}
               </a>
