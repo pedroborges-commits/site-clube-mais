@@ -10,7 +10,7 @@ const APP_STORES = [
   {
     id: 'appStore',
     name: 'App Store',
-    url: 'https://apps.apple.com/us/app/clube-mais-vantagens/id1670229780',
+    url: 'https://apps.apple.com/us/app/clube-mais-de-vantagens/id1671223473',
     iconSrc: '/assets/logos/App_store_logo.png',
   },
 ];
