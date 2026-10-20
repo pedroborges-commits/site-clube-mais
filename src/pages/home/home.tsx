@@ -33,7 +33,7 @@ const INFO_SECTIONS: InfoSection[] = [
 const ROUTES = {
   cliente: '/cliente',
   parceiro: '/parceiro',
-  planoMaisVendas: '#', // URL da página de vendas existente
+  planoMaisVendas: 'https://planomais.com.br/', 
   cupomClube: 'a definir',
 };
 
