@@ -1,23 +1,31 @@
-# React + TypeScript + Vite
+Clube Mais de Vantagens
 
-## React Compiler
+ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React (com TypeScript) para a construção dos componentes e lógica de interface.
 
-## Expanding the Oxlint configuration
+React Router para a gestão de rotas e navegação entre páginas.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Tailwind CSS para a estilização responsiva e customização de layouts.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Lucide React para iconografia moderna e leve.
+
+ Estrutura do Projeto
+
+O projeto está organizado em páginas modulares e componentes de navegação:
+
+home.tsx — Página inicial principal da aplicação, contendo a apresentação do Clube, secções informativas e links rápidos.
+
+HomeHeader.tsx — Cabeçalho fixo responsivo, com navegação por âncoras centralizada no desktop e menu dropdown interativo no mobile.
+
+paraclientes.tsx — Página dedicada aos clientes, contendo links para download do aplicativo nas lojas oficiais e acesso direto ao canal de atendimento via WhatsApp.
+
+paraparceiros.tsx — Hub de navegação para os parceiros com acesso rápido a todos os formulários disponíveis.
+
+Formulários Interativos:
+
+QueroSerParceiro.tsx — Formulário de interesse em parceria com seleção de segmentos e validações de dados.
+
+AlteracaoDados.tsx — Formulário para solicitação de alteração de dados cadastrais de estabelecimentos parceiros.
+
+IndicarParceiro.tsx — Formulário para indicação de novos potenciais parceiros com verificação de contacto.
